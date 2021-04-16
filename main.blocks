@@ -1,1 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="*mpFN-YL`*)i~90w@=yX" x="0" y="0"/></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="s8*D~5gx^4s[Y|Mt|nI$">Player</variable><variable type="KIND_SpriteKind" id=",`OVL.Oo^A@h)rC~l[I^">Projectile</variable><variable type="KIND_SpriteKind" id="D6+|6+k)e84jqVUDh|3t">Food</variable><variable type="KIND_SpriteKind" id="[HBA#6)5U+XR05`8.lfC">Enemy</variable><variable id="BP1[pxTsHwBMoW@5w}Vu">countB</variable><variable id="LHE,TcoRv2ckA??+s8??">counteReporter</variable><variable id="`ewEE*;2xY!.).quA:n?">mySprite</variable></variables><block type="pxt-on-start" id="*mpFN-YL`*)i~90w@=yX" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="=8d0!rwwRzWbm^4QR*6G"><field name="VAR" id="BP1[pxTsHwBMoW@5w}Vu">countB</field><value name="VALUE"><shadow type="math_number" id="~=Jv=mSi#b}{JT-BPc_c"><field name="NUM">0</field></shadow></value><next><block type="variables_set" id="@{:kFg/_#jeC`,fNd.g5"><field name="VAR" id="LHE,TcoRv2ckA??+s8??">counteReporter</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id=",}9-B.!`NG{TzmquUO.E"><value name="img"><shadow type="screen_image_picker" id="(yh$XQx7{J%;,rVEBv?,"><field name="img">img`
+. . . . . . . . . . b 5 b . . . 
+. . . . . . . . . b 5 b . . . . 
+. . . . . . b b b b b b . . . . 
+. . . . . b b 5 5 5 5 5 b . . . 
+. . . . b b 5 d 1 f 5 5 d f . . 
+. . . . b 5 5 1 f f 5 d 4 c . . 
+. . . . b 5 5 d f b d d 4 4 . . 
+. b b b d 5 5 5 5 5 4 4 4 4 4 b 
+b d d d b b d 5 5 4 4 4 4 4 b . 
+b b d 5 5 5 b 5 5 5 5 5 5 b . . 
+c d c 5 5 5 5 d 5 5 5 5 5 5 b . 
+c b d c d 5 5 b 5 5 5 5 5 5 b . 
+. c d d c c b d 5 5 5 5 5 d b . 
+. . c b d d d d d 5 5 5 b b . . 
+. . . c c c c c c c c b b . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"(yh$XQx7{J%;,rVEBv?,"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="=w[=6a-w{~]oaUw44R):"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></statement></block><block type="keyonevent" id="tP.BQkuGn,:~z21S]^9q" x="-10" y="230"><field name="button">controller.B</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="variables_change" id="avM!W#,7o]Ra,1:#KVxC"><field name="VAR" id="BP1[pxTsHwBMoW@5w}Vu">countB</field><value name="VALUE"><shadow type="math_number" id="q^``Ei_H#(qH=o|^c#a0"><field name="NUM">1</field></shadow></value><next><block type="spritesay" id="wxy]h!Pqi]:bV1[/7z43"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="3k]~Bto4GE#[fUlP_vnO"><field name="VAR" id="LHE,TcoRv2ckA??+s8??">counteReporter</field></block></value><value name="text"><shadow type="text" id="2_}h^t0:s1tOfJkV0P8f"><field name="TEXT">countB</field></shadow><block type="variables_get" id=":joEo^M*Y{^L[xTNzA|X"><field name="VAR" id="BP1[pxTsHwBMoW@5w}Vu">countB</field></block></value><next><block type="controls_repeat_ext" id="n@L7qrwJY|^O$x1P{10x"><value name="TIMES"><shadow type="math_whole_number" id=";k{h6)H94P+:*^k-:iAk"><field name="NUM">4</field></shadow><block type="variables_get" id="!i-]@C*e/F,7_JG_X@n|"><field name="VAR" id="BP1[pxTsHwBMoW@5w}Vu">countB</field></block></value><statement name="DO"><block type="mixer_play_note" id=":Mpf;^_Y{$?K21x#]VwU"><value name="note"><shadow type="device_note" id="QO6OP]5#?2kH2=?Z6CQE"><field name="note">262</field></shadow></value><value name="duration"><shadow type="device_beat" id="%]17$Jda3u{M?1~t003M"><field name="fraction">BeatFraction.Quarter</field></shadow></value></block></statement></block></next></block></next></block></statement></block></xml>
